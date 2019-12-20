@@ -1,0 +1,182 @@
+body
+{
+    margin: 0;
+    font-family: 'Segoe UI';
+}
+
+h1,h2,h3,h4
+{
+    margin: 0;
+}
+
+section
+{
+    width: 100%;
+    min-height:  100vh;
+}
+
+.sect1
+{
+    background: url(laptop.jpg) center / cover;
+}
+
+.middle
+{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+
+.main-title
+{
+    font-size: 3em;
+}
+
+.btn
+{
+    min-width: 120px;
+    min-height: 40px;
+    font-size: 1em;
+    color: white;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover 
+{
+    background-color: white;
+    color: black;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+}
+
+.ico
+{
+    margin-right: 50px;
+    font-size: 3em;
+}
+
+.ico a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.ico a:hover 
+{
+    color: rgb(204, 204, 204);
+}
+
+.icons ul
+{
+    display: flex;
+    justify-content: center;
+}
+
+.sect-title
+{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.sect2
+{
+    color: rgb(46, 46, 46);
+}
+
+.sect2 h2
+{
+    text-align: center;
+    font-size: 3em;
+}
+
+.about
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile, .skills
+{
+    width: 550px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profile h3, .skills h3
+{
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+progress
+{
+    width: 100%;
+}
+
+.sect3
+{
+    background-color: black;
+    color: white;
+}
+
+.sect3 h3
+{
+    font-weight: normal;
+}
+
+.sect3 h2 
+{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.projects
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.proj
+{
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.proj-desc
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-left: 5px;
+    padding-top: 15px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.proj-desc:hover 
+{
+    opacity: 1;
+}
